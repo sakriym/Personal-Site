@@ -1,0 +1,85 @@
+/* cssforpersonalwebsite */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blanchedalmond
+}
+
+h1 {
+  margin: 0
+}
+
+.name {
+  font-family: cursive;
+}
+
+.navbar {
+  position: relative;
+}
+
+
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.about {
+  margin-left: 8%;
+  margin-top: 15%
+}
+
+.about h1 {
+  font-size: 50px;
+  color: #212121;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+.about p {
+  color: #555;
+  line-height: 22px;
+}
+
+.about a {
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.image {
+  width: 200px;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: 0 0 10px gainsboro;
+  object-position: right;
+  margin-bottom: 20px;
+}
